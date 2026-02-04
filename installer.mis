@@ -1,9 +1,9 @@
 {
   "program": {
-    "name": "ASCII snake",
+    "name": "ASCII snake", 
     "version": "1.0",
     "entry": "ASCII_snake.mps",
-    "description": "Классическая змейка в ASCII-стиле для Mystic OS"
+    "description": "ASCII змейка!"
   },
   "install": {
     "create_dirs": [
@@ -11,21 +11,21 @@
     ],
     "downloads": [
       {
-        "url": "https://raw.githubusercontent.com/mistikov9-sketch/test/main/ASCII_snake.mps",
+        "url": "https://raw.githubusercontent.com/mistikov9-sketch/test/refs/heads/main/ASCII_snake.mps",
         "target": "programs",
         "filename": "ASCII_snake.mps"
       },
       {
-        "url": "https://raw.githubusercontent.com/mistikov9-sketch/test/main/ASCIISnake.mds",
-        "target": "system/delete",
+        "url": "https://raw.githubusercontent.com/mistikov9-sketch/test/refs/heads/main/ASCIISnake.mds",
+        "target": "system/delete", 
         "filename": "ASCII snake.mds"
       },
       {
-        "url": "https://raw.githubusercontent.com/mistikov9-sketch/test/main/setup.py",
+        "url": "https://raw.githubusercontent.com/mistikov9-sketch/test/refs/heads/main/setup.py",
         "target": "system/temp",
         "filename": "ascii_snake_setup.py"
       }
     ],
-    "post_install": "https://raw.githubusercontent.com/mistikov9-sketch/test/main/setup.py"
+    "post_install": "https://raw.githubusercontent.com/mistikov9-sketch/test/refs/heads/main/setup.py"
   }
 }
